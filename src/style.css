@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #fff;
+}
+body {
+  overscroll-behavior: none;
+  touch-action: none;
+}
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hud-panel {
+  position: absolute;
+  pointer-events: auto;
+  display: flex;
+  gap: 8px;
+}
+.hud-top-left {
+  top: 12px;
+  left: 12px;
+}
+.btn {
+  appearance: none;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.btn:active {
+  transform: translateY(1px);
+}
